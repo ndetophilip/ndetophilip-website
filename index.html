@@ -14,8 +14,8 @@
 <meta name="keywords" content="Kenyan law firm, landlord tenant lawyer, family law lawyer, criminal defense lawyer, commercial transactions lawyer, data privacy lawyer, Nairobi lawyer, Nakuru lawyer">
 <meta name="author" content="NDETOPHILIP & COMPANY ADVOCATES">
 
-<!-- Sitemap reference -->
-<link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
+<!-- Font Awesome for tech icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-C4Jr/m1o2NJXUMkA+SPgYvX8+Lt6N/8oK3vF9Z1VExFZTLn6v4KXfZ1cL1E3dU3+2+2BdFT9R6Ri02m1QXc4Rw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
@@ -26,14 +26,16 @@ header{background:linear-gradient(90deg,#0b3d91,#0b8457);padding:20px 40px;displ
 .logo{font-weight:700;font-size:20px;display:flex;align-items:center;gap:10px;}
 nav a{color:white;margin-left:20px;text-decoration:none;font-weight:500;transition:color 0.3s;}
 nav a:hover{color:#ffd700;}
-.hero{background:linear-gradient(135deg, #0b3d91cc, #0b8457cc);color:white;padding:70px 20px;border-radius:0 0 30px 30px;}
+.hero{background:linear-gradient(135deg, #0b3d91cc, #0b8457cc), url('https://i.ibb.co/Xj2V7hb/ai-bg.jpg') no-repeat center center; background-size: cover; color:white; padding:70px 20px; border-radius:0 0 30px 30px;}
 .hero-container{display:flex;flex-wrap:wrap;align-items:center;gap:40px;justify-content:center;}
 .hero-text{flex:1;min-width:250px;}
 .hero-text h1{font-size:40px;margin-bottom:20px;}
-.hero-text p{max-width:700px;margin-bottom:30px;font-size:18px;line-height:1.6;}
+.hero-text p{max-width:700px;margin-bottom:20px;font-size:18px;line-height:1.6;}
+.hero-icons{margin-top:15px;font-size:22px;}
+.hero-icons i{margin-right:15px;}
 .button{display:inline-block;padding:12px 25px;background:white;color:#0b3d91;text-decoration:none;border-radius:5px;font-weight:600;margin:10px;transition: transform 0.3s, background 0.3s;}
 .button:hover{background:#0b8457;color:white;transform:translateY(-3px);}
-.section{padding:70px 20px;max-width:1100px;margin:auto;background:white;border-radius:20px;box-shadow:0 10px 25px rgba(0,0,0,0.05);margin-bottom:40px;}
+.section{padding:70px 20px;max-width:1100px;margin:auto;background:white; border-radius:20px;box-shadow:0 10px 25px rgba(0,0,0,0.05);margin-bottom:40px; background-repeat:no-repeat; background-position:center; background-size:cover;}
 .section h2{color:#0b3d91;margin-bottom:20px;}
 .about-container{display:flex;flex-wrap:wrap;align-items:center;gap:40px;justify-content:center;}
 .about-text{flex:1;min-width:250px;line-height:1.6;}
@@ -42,7 +44,9 @@ nav a:hover{color:#ffd700;}
 .practice-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:30px;}
 .card{background:#f4f9f7;padding:25px;border-radius:12px;box-shadow:0px 5px 20px rgba(0,0,0,0.08);transition: transform 0.3s;}
 .card:hover{transform:translateY(-5px);}
-.card h3{color:#0b8457;margin-bottom:10px;}
+.card h3{color:#0b8457;margin-bottom:10px;display:flex;align-items:center;}
+.card h3 i{margin-right:8px;}
+.card img{margin-top:15px;}
 .contact{background:#0b3d91;color:white;text-align:center;padding:50px 20px;border-radius:20px;box-shadow:0 10px 25px rgba(0,0,0,0.1);}
 .contact p{margin:8px 0;font-size:16px;}
 footer{background:#06264d;color:white;text-align:center;padding:20px;border-radius:0 0 20px 20px;box-shadow:0 -5px 15px rgba(0,0,0,0.1);}
@@ -77,71 +81,85 @@ ul{padding-left:20px;}
   <div class="hero-text">
     <h1>Refined Advocacy. Strategic Protection. Trusted Counsel.</h1>
     <p>NDETOPHILIP & COMPANY ADVOCATES is a distinguished Kenyan law firm delivering high-level legal representation in landlord & tenant disputes, family law matters, commercial transactions, criminal law, and data privacy & protection.</p>
+    <div class="hero-icons">
+      <i class="fa-solid fa-robot"></i>
+      <i class="fa-solid fa-laptop-code"></i>
+      <i class="fa-solid fa-shield-halved"></i>
+      Modern AI & Technology-Driven Legal Solutions
+    </div>
     <a class="button" href="tel:+254700100920">Call 0700 100 920</a>
     <a class="button" href="https://wa.me/254700100920?text=Good%20afternoon%20Counsel%2C%20I%20require%20legal%20assistance." target="_blank">WhatsApp Now</a>
   </div>
 </section>
 
-<section id="about" class="section about-container">
-  <div class="about-text">
-    <h2>About The Firm</h2>
-    <p>NDETOPHILIP & COMPANY ADVOCATES is committed to excellence, integrity and client-focused legal strategy. Our practice combines modern legal precision with confidentiality and fearless courtroom advocacy.</p>
-    <p>We serve individuals, landlords, tenants, families and businesses across Kenya, ensuring their rights, assets and liberties are safeguarded with professionalism and unwavering dedication.</p>
-    <p>At NDETOPHILIP & COMPANY ADVOCATES, we also integrate modern technology and AI solutions to enhance efficiency, case management, and client service, reflecting our forward-looking approach to legal practice.</p>
-  </div>
-  <div class="about-image">
-    <img src="ndeto_photo_professional.jpeg" alt="Managing Advocate">
+<section id="about" class="section" style="background-image:url('https://i.ibb.co/02r3XpT/ai-pattern-light.png');">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>About The Firm</h2>
+      <p>NDETOPHILIP & COMPANY ADVOCATES is committed to excellence, integrity and client-focused legal strategy. Our practice combines modern legal precision with confidentiality and fearless courtroom advocacy.</p>
+      <p>We serve individuals, landlords, tenants, families and businesses across Kenya, ensuring their rights, assets and liberties are safeguarded with professionalism and unwavering dedication.</p>
+      <p>At NDETOPHILIP & COMPANY ADVOCATES, we integrate modern technology and AI solutions to enhance efficiency, case management, and client service, reflecting our forward-looking approach to legal practice.</p>
+    </div>
+    <div class="about-image">
+      <img src="ndeto_photo_professional.jpeg" alt="Managing Advocate">
+    </div>
   </div>
 </section>
 
-<section id="practice" class="section">
+<section id="practice" class="section" style="background-image:url('https://i.ibb.co/fDF1yr6/ai-tech-bg.png');">
 <h2>Practice Areas</h2>
 <div class="practice-grid">
 
 <div class="card">
-  <h3>Landlord & Tenant Law</h3>
+  <h3><i class="fa-solid fa-building-columns"></i>Landlord & Tenant Law</h3>
   <p>Our firm has successfully handled numerous landlord & tenant disputes, securing evictions, stopping illegal evictions, and protecting tenants’ and businesses’ rights. Key cases include:</p>
   <ul>
     <li>RRC/E052/2026</li>
     <li>RRC/E2066/2025</li>
     <li>RRC/E2025/2025</li>
-    <li>RRC/E1292/2025</li>
-    <li>RRC/E1291/2025</li>
-    <li>RRC/729/2017</li>
-    <li>RRC/E911/2025</li>
-    <li>RRC/E853/2025</li>
-    <li>RRC/E729/2025</li>
-    <li>RRC/E233/2025</li>
-    <li>RRC/E187/2025</li>
-    <li>BPRT/E919/2025</li>
     <li>etc.</li>
   </ul>
+  <div style="text-align:center;margin-top:15px;">
+    <img src="https://i.ibb.co/kH0D5Jz/tech-icon-1.png" alt="Tech icon" width="60">
+  </div>
 </div>
 
 <div class="card">
-  <h3>Family Law</h3>
+  <h3><i class="fa-solid fa-users"></i>Family Law</h3>
   <p>We handle sensitive family law matters, including divorce, custody, maintenance, and succession. Several of these cases are ongoing and actively pursued to ensure optimal outcomes for our clients.</p>
+  <div style="text-align:center;margin-top:15px;">
+    <img src="https://i.ibb.co/8g3T9p2/tech-icon-2.png" alt="Tech icon" width="60">
+  </div>
 </div>
 
 <div class="card">
-  <h3>Commercial Transactions</h3>
+  <h3><i class="fa-solid fa-briefcase"></i>Commercial Transactions</h3>
   <p>Our team advises businesses on contracts, corporate structuring, and debt recovery. Numerous commercial matters are currently ongoing, reflecting our proactive and continuous support to protect business interests.</p>
+  <div style="text-align:center;margin-top:15px;">
+    <img src="https://i.ibb.co/yW5yXNq/tech-icon-3.png" alt="Tech icon" width="60">
+  </div>
 </div>
 
 <div class="card">
-  <h3>Criminal Law</h3>
+  <h3><i class="fa-solid fa-gavel"></i>Criminal Law</h3>
   <p>We provide strategic criminal defense, bail applications, and trial representation. Several criminal defense cases are still active, demonstrating our ongoing commitment to safeguarding clients’ constitutional rights.</p>
+  <div style="text-align:center;margin-top:15px;">
+    <img src="https://i.ibb.co/0cN9HfK/tech-icon-4.png" alt="Tech icon" width="60">
+  </div>
 </div>
 
 <div class="card">
-  <h3>Data Privacy & Protection</h3>
+  <h3><i class="fa-solid fa-shield-halved"></i>Data Privacy & Protection</h3>
   <p>We advise individuals and businesses on compliance with data protection laws and privacy regulations. Our Managing Advocate has completed professional training in Data Privacy & Protection at <strong>Strathmore University</strong>, ensuring cutting-edge legal support in an increasingly digital and AI-driven world.</p>
+  <div style="text-align:center;margin-top:15px;">
+    <img src="https://i.ibb.co/WnydQbC/tech-icon-5.png" alt="Tech icon" width="60">
+  </div>
 </div>
 
 </div>
 </section>
 
-<section id="accomplishments" class="section">
+<section id="accomplishments" class="section" style="background-image:url('https://i.ibb.co/ZV0y0F4/ai-pattern.png');">
 <h2>Key Accomplishments</h2>
 <div class="practice-grid">
   <div class="card"><h3>&nbsp;</h3><p>&nbsp;</p></div>
@@ -151,7 +169,7 @@ ul{padding-left:20px;}
 </div>
 </section>
 
-<section id="team" class="section">
+<section id="team" class="section" style="background-image:url('https://i.ibb.co/Xj2V7hb/ai-bg.jpg');">
 <h2>Our Team</h2>
 <p>Meet the dedicated advocates and legal experts behind NDETOPHILIP & COMPANY ADVOCATES.</p>
 </section>
