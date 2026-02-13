@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ndetophilip.github.io/ndetophilip-website/sitemap.xml
