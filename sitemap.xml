@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://ndetophilip.github.io/ndetophilip-website/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://ndetophilip.github.io/ndetophilip-website/landlord-tenant.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ndetophilip.github.io/ndetophilip-website/family-law.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ndetophilip.github.io/ndetophilip-website/commercial-law.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ndetophilip.github.io/ndetophilip-website/criminal-law.html</loc>
+    <priority>0.8</priority>
+  </url>
+</urlset>
